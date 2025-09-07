@@ -1472,7 +1472,7 @@
                 const senderName = document.getElementById('previewSender').textContent;
                 const receiverName = document.getElementById('previewReceiver').textContent;
                 
-                const message = `KWANDAA Delivery Receipt\n\nDelivery ID: KW-${deliveryId}\nSender: ${senderName}\nReceiver: ${receiverName}\n\nView your receipt: ${window.location.href}`;
+                const message = `KWANDAA Delivery Receipt\n\nDelivery ID: KW-${deliveryId}\nSender: ${senderName}\nReceiver: `;
                 
                 // Encode message for WhatsApp URL
                 const encodedMessage = encodeURIComponent(message);
@@ -2155,3 +2155,4 @@
     </script>
 </body>
 </html>
+
